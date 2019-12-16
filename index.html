@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventry system</title>
+</head>
+<body>
+
+	<table border="1" bgcolor="darkgrey">
+		<tr class="rew">
+			<th>Product</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Quantity Available</th>
+			<th>Order</th>
+			<th>Amount</th>
+			
+		</tr>
+		<tr class="rew">
+			<td><img src="tiger.jpeg" style="width: 60px; height: 60px;"></td>
+			<td><input type="text" value="LAPTOP" disabled=""></td>
+			<td><input type="number" value="120000" disabled="" id="price1"></td>
+			<td><input type="number" value="" disabled="" id="quantity1"></td>
+			<td><input type="number" name="" id="order1" onkeyup="calc1()"></td>
+			<td><input type="" name="" id="amount1" disabled=""></td>
+		</tr>
+		<tr class="rew">
+			<td><img src="blue-parrot.jpeg" style="width: 60px; height: 60px;"></td>
+			<td><input type="text" value="PHONE" disabled=""></td>
+			<td><input type="number" value="40000" disabled="" id="price2"></td>
+			<td><input type="number" value="" disabled="" id="quantity2"></td>
+			<td><input type="number" name="" id="order2" onkeyup="calc2()"></td>
+			<td><input type="" name="" id="amount2" disabled=""></td>
+			
+		</tr>
+		<tr class="rew">
+			<td><img src='brown-lion.jpeg' style="width: 60px; height: 60px;"></td>
+			<td><input type="text" value="TAB" disabled=""></td>
+			<td><input type="number" value="80000" disabled="" id="price3"></td>
+			<td><input type="number" value="" disabled="" id="quantity3"></td>
+			<td><input type="number" name="" id="order3" onkeyup="calc3()"></td>
+			<td><input type="" name="" id="amount3" disabled=""></td>
+			
+		</tr>
+		<tr class="rew">
+			<td><img src="./brown-fox.jpeg" style="width: 60px; height: 60px;"></td>
+			<td><input type="text" value="IPHONE X MAX" disabled=""></td>
+			<td><input type="number" value="400000" disabled="" id="price4"></td>
+			<td><input type="number" value="" disabled="" id="quantity4"></td>
+			<td><input type="number" name="" id="order4" onkeyup="calc4()"></td>
+			<td><input type="" name="" id="amount4" disabled=""></td>
+			
+		</tr>
+		<tr class="rew">
+			<td><img src="wood-pecker.jpeg" style="width: 60px; height: 60px;"></td>
+			<td><input type="text" value="TECHNO" disabled=""></td>
+			<td><input type="number" value="50000" disabled="" id="price5"></td>
+			<td><input type="number" value="" disabled="" id="quantity5"></td>
+			<td><input type="number" name="" id="order5" onkeyup="calc5()"></td>
+			<td><input type="" name="" id="amount5" disabled=""></td>
+		
+			</tr>
+		<tr class="rew">
+			<td colspan="3"><input type="button" style="width: 527px; height: 56px; " value="TOTAL" onclick="total()" name=""></td>
+
+			<td colspan="3"><input style="width: 527px; height: 50px;" type="number" name="" value="" id="result" disabled=""></td>
+		</tr>
+	</table>
+
+	<script type="text/javascript" src="eventry2.js"></script>
+</body>
+</html>
